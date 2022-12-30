@@ -1,5 +1,8 @@
 # Istio
-    Istio is a service mesh technology and it brings traffic management, telemetry and security to complex kubernetes deployments. In a nutshell Istio uses Envoy proxy to inject proxy container to every pod to implement these features. 
+Istio is a service mesh technology and it brings traffic management, telemetry and security to complex kubernetes deployments. In a nutshell Istio uses Envoy proxy to inject proxy container to every pod to implement these features. 
+
+![image](https://istio.io/latest/docs/concepts/security/arch-sec.svg)
+<br>
 
 ## Setup minikube cluster to deploy istio 
         minikube start --cpus 6 --memory 8192
@@ -12,7 +15,7 @@
 2. move into the directory and add /bin path to shell profile, so "istioctl" command will be available
     ``` shell
         vi .zshrc
-        export PATH=/Users/ravi/istio-1.16.1/bin:$PATH ```
+        export PATH=/Users/ravi/istio-1.16.1/bin:$PATH
 
 3. Install
     ``` shell
