@@ -24,3 +24,9 @@ Istio is a service mesh technology and it brings traffic management, telemetry a
 4. Instruct to Istio to deploy envoy sidecar container by adding namespace label to default namespace
     ``` shell    
         kubectl label namespace default istio-injection=enabled
+
+
+## Install sample applicatoin from https://github.com/GoogleCloudPlatform/microservices-demo
+
+
+## Install Istio Addons for data visualization and monitoring
