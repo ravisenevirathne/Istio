@@ -72,3 +72,5 @@ Istio is a service mesh technology and it brings traffic management, telemetry a
     service istio-system/kiali has no node port
     http://127.0.0.1:57828   # can access dashboard on this url
   ```
+- Kiali Dashboard provides good datavisualization graph how microservices are communicating with each other and other metrices. 
+  <img width="1656" alt="image" src="https://user-images.githubusercontent.com/85973309/210187073-10786973-f309-4936-a4a3-85fbd6b853dc.png">
