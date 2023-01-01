@@ -5,7 +5,7 @@ Istio is a service mesh technology and it brings traffic management, telemetry a
 <br>
 
 ## Setup minikube cluster to deploy istio 
-        minikube start --cpus 6 --memory 8192
+        minikube start --cpus 6 --memory 8192 --profile istio
 
 ## Istio Install
 
