@@ -28,5 +28,15 @@ Istio is a service mesh technology and it brings traffic management, telemetry a
 
 ## Install sample applicatoin from https://github.com/GoogleCloudPlatform/microservices-demo
 
+- Apply the manifest file for microservices-demo
+  ```
+  kubectl apply -f https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/release/kubernetes-manifests.yaml
+  ```
+  
+- Make sure all the relavant pods and services are in running state
+  ```
+  kubectl get pods,svc
+  ```
+
 
 ## Install Istio Addons for data visualization and monitoring
